@@ -48,6 +48,7 @@ function RecipeCreate({createNewRecipe}) {
                 placeholder="Name"
                 onChange={handleChange}
                 value={formData.name}
+                required
               />
             </label>
             </td>
